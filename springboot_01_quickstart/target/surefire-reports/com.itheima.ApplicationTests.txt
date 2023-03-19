@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.itheima.ApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.235 s <<< FAILURE! - in com.itheima.ApplicationTests
+com.itheima.ApplicationTests  Time elapsed: 0.233 s  <<< ERROR!
+java.lang.IllegalStateException: Found multiple @SpringBootConfiguration annotated classes [Generic bean: class [com.itheima.Application]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [D:\Java\IdeaProjects\springboot\springboot_01_quickstart\target\classes\com\itheima\Application.class], Generic bean: class [com.itheima.Springboot01QuickstartApplication]; scope=; abstract=false; lazyInit=null; autowireMode=0; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=null; factoryMethodName=null; initMethodNames=null; destroyMethodNames=null; defined in file [D:\Java\IdeaProjects\springboot\springboot_01_quickstart\target\classes\com\itheima\Springboot01QuickstartApplication.class]]
+
